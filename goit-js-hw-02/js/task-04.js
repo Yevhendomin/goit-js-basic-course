@@ -2,7 +2,7 @@
 
 const formatString = function(string) {
 
-    const isStringLonger = string.length >= 40;
+    const isStringLonger = string.length > 40;
     return (isStringLonger ? `${string.slice(0, 39)}...` : string);
 
 };
