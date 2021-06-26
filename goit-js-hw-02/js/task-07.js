@@ -71,7 +71,7 @@ console.log(addLogin(logins, "jqueryisextremelyfast")); // 'Ошибка! Лог
 Если isLoginUnique вернет false, тогда addLogin не добавляет логин в массив 
 и возвращает строку 'Такой логин уже используется!'
 
-Если isLoginUnique вернет true, addLogin добавляет новый логин 
-в logins и возвращает строку 'Логин успешно добавлен!'
+Если isLoginUnique вернет true, addLogin добавляет новый логин в logins и 
+возвращает строку 'Логин успешно добавлен!'
 
  */
