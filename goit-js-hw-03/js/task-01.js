@@ -1,10 +1,10 @@
 "use strict";
 
 const user = {
-    name: "Mango",
-    age: 20,
-    hobby: "html",
-    premium: true,
+  name: "Mango",
+  age: 20,
+  hobby: "html",
+  premium: true,
 };
 
 user.mood = "happy";
@@ -14,9 +14,8 @@ user.premium = false;
 const keys = Object.keys(user);
 
 for (let key of keys) {
-    console.log(`${key} : ${user[key]}`);
+  console.log(`${key} : ${user[key]}`);
 }
-
 
 /* 
 

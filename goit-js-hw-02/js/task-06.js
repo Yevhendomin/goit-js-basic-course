@@ -6,17 +6,16 @@ let input = prompt("Какое число добавить для суммиро
 let sum = Number.parseInt(input);
 
 while (input != null) {
-    numbers.push(Number.parseInt(input));
-    console.log(numbers);
-    input = prompt("Какое число добавить для суммирования?");
+  numbers.push(Number.parseInt(input));
+  console.log(numbers);
+  input = prompt("Какое число добавить для суммирования?");
 }
 
 for (let i = 1; i < numbers.length; i += 1) {
-    sum += numbers[i];
+  sum += numbers[i];
 }
 
 alert(`Сумма введённых вами чисел = ${sum}`);
-
 
 /* 
 
