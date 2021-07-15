@@ -1,12 +1,9 @@
 "use strict";
 
-
-
 const Transaction = {
   DEPOSIT: "deposit",
   WITHDRAW: "withdraw",
 };
-
 
 
 const account = {
