@@ -5,7 +5,6 @@ const Transaction = {
   WITHDRAW: "withdraw",
 };
 
-
 const account = {
   balance: 0,
   transactions: [],
